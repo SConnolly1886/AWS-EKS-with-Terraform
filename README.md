@@ -29,7 +29,7 @@ This terraform example will create a new VPC in US-East-1 region with:
 
 ![Untitled Diagram](https://user-images.githubusercontent.com/62077185/125118484-c399a800-e0bd-11eb-8f31-1aed00bbd542.png)
 
-**Create an ASG of Bastion Hosts manually to SSH - OR - install SSM Systems Manager on EC2 instances without needed to SSH.**
+**Create an ASG of Bastion Hosts manually to SSH - OR - install SSM Sessions Manager on EC2 instances without needing to SSH into instances (Instance IAM roles would need to be modified and the Security Groups can be changed as access to port 22 wouldn't be required).**
 
 ### Next step?
 All that needs to be done now is run `terraform apply`
