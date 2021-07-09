@@ -73,9 +73,9 @@ The link below should now let you access the dashboard:
 Well no. You may be able to open the link but the Dashboard needs authentication. 
 
 ### Authenticating Kubernetes Dashboard
-A cluster role binding needs to be created to provide an authorization token. This gives whoever the cluster-admin is the necessary permission needed to access the dashboard. Authenticating using kubeconfig is not an option here but check please have a read over of the official kubernetes documentation. `https://kubernetes.io/docs/home/`
+A cluster role binding needs to be created to provide an authorization token. This gives whoever the cluster-admin is the necessary permission needed to access the dashboard. Authenticating using kubeconfig is not an option here but please have a read over of the official kubernetes documentation. `https://kubernetes.io/docs/home/`
 
-Make sure not to close the proxy process and new terminal to create the cluster role binding.
+Make sure not to close the proxy process by opening a new terminal in order to create the cluster role binding.
 
 `kubectl apply -f https://raw.githubusercontent.com/hashicorp/learn-terraform-provision-eks-cluster/master/kubernetes-dashboard-admin.rbac.yaml`
 
