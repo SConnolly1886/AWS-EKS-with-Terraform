@@ -1,4 +1,4 @@
-# How to Create a EKS Cluster with Terraform
+# How to Create an EKS Cluster with Terraform
 
 ## What is trying to be done?
 This will show you how to 1) deploy an EKS cluster using Terraform and 2) Configure `kubectl` using `Terraform output` to deploy a Kubernetes dashboard on the cluster.
